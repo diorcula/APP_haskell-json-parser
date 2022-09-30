@@ -8,7 +8,7 @@ import Control.Applicative
 import Data.Char
 import Distribution.Simple.CCompiler (filenameCDialect)
 
--- JSON data types
+-- JSON data types, AST
 data JsonValue
   = JsonNull
   | JsonBool Bool
